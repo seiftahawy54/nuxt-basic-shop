@@ -1,75 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Simple Shop Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- This project about creating a demo project for Simple Shop System as UI tool:
 
-## Setup
+## Project Requirements
+- This project is about visualizing the UI of the backend project as it's main dependency.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
+## Installation instructions
+- Clone project : `git clone https://github.com/seiftahawy54/nuxt-basic-shop.git
+- Create `.env` file for environment variables : `touch .env`
+- Add important variables before running the app:
+    - `VITE_BACKEND_URL` : to connect to project's backend. (default is `http://127.0.0.1:3000/api`)
+    - `VITE_STATIC_URL` : to connect the backend static files (default is `http://127.0.0.1:3000/`)
+- Install dependencies : `yarn install`
+- Run the project in dev mode : `yarn dev` will start by default on `http://localhost:3001`
 
 ## Production
 
 Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
